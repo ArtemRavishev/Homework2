@@ -103,12 +103,12 @@ public class Main {
     public static void task8() {
         System.out.println("Задача 8");
         var totalNumberOfHours = 640;
-        var timeOfOneEmployee1 = 8;
-        var numberOfEmployees1 = totalNumberOfHours / timeOfOneEmployee1;
+        var timeOfOneEmployee = 8;
+        var numberOfEmployees1 = totalNumberOfHours / timeOfOneEmployee;
         System.out.println(" Всего работников в компании " + numberOfEmployees1 + " человек ");
         var numberOfEmployees2 = 94;
         var totalNumberOfEmployees = numberOfEmployees2 + numberOfEmployees1;
-        var timeOfOneEmployee2 = totalNumberOfHours/totalNumberOfEmployees;
+        var timeOfOneEmployee2 = timeOfOneEmployee*totalNumberOfEmployees;
         System.out.println(" Если в компании работает " + totalNumberOfEmployees + " человек, то всего " + timeOfOneEmployee2 + " часов работы может быть поделено между сотрудниками ");
 
     }
